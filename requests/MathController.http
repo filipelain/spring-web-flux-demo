@@ -1,0 +1,78 @@
+### GET find Square
+GET localhost:8080/math/square/2
+Accept: application/json
+
+### GET find Table
+GET localhost:8080/math/table/2
+Accept: application/json
+
+
+### GET reactive find Square
+GET localhost:8080/math/reactive/square/2
+Accept: application/json
+
+### GET reactive find Table
+GET localhost:8080/math/reactive/table/2
+Accept: application/json
+
+### GET reactive find Table Stream
+GET localhost:8080/math/reactive/table/2/stream
+Accept: text/event-stream
+
+### GET reactive find square validation Stream
+GET localhost:8080/math/reactive/validation/square/2
+
+### GET reactive find square validation mono pipeline false
+GET localhost:8080/math/reactive/validation/square/2/mono
+
+### GET reactive find square validation mono pipeline true
+GET localhost:8080/math/reactive/validation/square/15/mono
+
+
+### GET reactive find square validation mono assingment
+GET localhost:8080/math/reactive/validation/square/1/assignment
+
+### GET reactive find square functional endpoint
+GET localhost:8080/router/square/11
+
+### GET reactive find Table functional endpoint
+GET localhost:8080/router/table/2
+
+### GET reactive find Table functional steam endpoint
+GET localhost:8080/router/table/stream/2
+
+
+### Post reactive find Table functional steam endpoint
+POST localhost:8080/router/multiply
+Content-Type: application/json
+
+{
+   "fist": 2,
+   "second": 2
+}
+
+### GET reactive find square validation mono pipeline false
+GET localhost:8080/router/validation/square/2
+
+### GET reactive find square validation mono pipeline true
+GET localhost:8080/math/reactive/validation/square/11
+
+### GET reactive caclulator plus
+GET localhost:8080/calculator/1/2
+operation: +
+
+### GET reactive caclulator minus
+GET localhost:8080/calculator/1/2
+operation: -
+
+### GET reactive caclulator multiply
+GET localhost:8080/calculator/1/2
+operation: *
+
+### GET reactive caclulator divide
+GET localhost:8080/calculator/1/2
+operation: /
+
+### GET reactive caclulator divide bad request
+GET localhost:8080/calculator/1/0
+operation: /
