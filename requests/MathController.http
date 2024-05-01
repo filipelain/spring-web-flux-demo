@@ -58,7 +58,7 @@ GET localhost:8080/router/validation/square/2
 GET localhost:8080/math/reactive/validation/square/11
 
 ### GET reactive caclulator plus
-GET localhost:8080/calculator/1/2
+GET localhost:8080/calculator/5/10
 operation: +
 
 ### GET reactive caclulator minus
