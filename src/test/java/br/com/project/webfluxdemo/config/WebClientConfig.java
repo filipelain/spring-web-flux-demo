@@ -20,8 +20,7 @@ public class WebClientConfig {
                 .build();
     }
 
-
-    //    private Mono<ClientResponse> sessionToken(ClientRequest request, ExchangeFunction ex) {
+//    private Mono<ClientResponse> sessionToken(ClientRequest request, ExchangeFunction ex) {
 //        System.out.println("Generate Session token");
 //        var client = ClientRequest.from(request)
 //                .headers(h -> h.setBearerAuth("some-token"))

@@ -1,13 +1,10 @@
-package br.com.project.webfluxdemo;
+package br.com.project.webfluxdemo.webclient;
 
 import java.util.Map;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.web.reactive.function.client.ClientResponse;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
-import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
 
 public class Lec07QueryParamsTest extends BaseTest {

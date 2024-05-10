@@ -1,4 +1,4 @@
-package br.com.project.webfluxdemo;
+package br.com.project.webfluxdemo.webclient;
 
 import br.com.project.webfluxdemo.dto.Response;
 import java.math.BigDecimal;
